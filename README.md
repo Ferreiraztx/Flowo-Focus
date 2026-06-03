@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Flowo
+# ⚡ Flowo Focus
 
 **Gerenciamento de tarefas moderno, fluido e minimalista.**
 
@@ -60,10 +60,10 @@
 
 ```bash
 # Clone o repositório
-git clone https://github.com/Ferreiraztx/flowo.git
+git clone https://github.com/Ferreiraztx/flowo-focus.git
 
 # Entre na pasta
-cd flowo
+cd flowo-focus
 
 # Instale as dependências
 npm install
