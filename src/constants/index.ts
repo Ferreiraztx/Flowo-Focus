@@ -65,8 +65,8 @@ export const SAMPLE_TASKS: Task[] = [
   },
   {
     id: '2',
-    title: 'Implementar drag-and-drop no Kanban',
-    description: 'Integrar @hello-pangea/dnd com o store de tarefas.',
+    title: 'Testar Aplicativo',
+    description: 'Testar funcionalidades do aplicativo',
     status: 'in_progress',
     priority: 'high',
     category: 'dev',
@@ -77,7 +77,7 @@ export const SAMPLE_TASKS: Task[] = [
   },
   {
     id: '3',
-    title: 'Campanha de lançamento Q2',
+    title: 'Campanha de lançamento ',
     description: 'Preparar copy e assets para redes sociais.',
     status: 'todo',
     priority: 'medium',
@@ -101,8 +101,8 @@ export const SAMPLE_TASKS: Task[] = [
   },
   {
     id: '5',
-    title: 'Configurar persistência Zustand',
-    description: 'Middleware persist com chave flowo-tasks.',
+    title: 'Configurar ontas',
+    description: 'Ajustar contas das pessoas.',
     status: 'done',
     priority: 'medium',
     category: 'dev',
