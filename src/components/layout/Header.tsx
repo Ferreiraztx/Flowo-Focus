@@ -20,7 +20,7 @@ export function Header() {
               <Zap size={20} />
             </div>
             <span className="font-heading text-xl font-bold tracking-tight">
-              Flowo
+              Flowo Focus
             </span>
           </div>
 
