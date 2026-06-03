@@ -65,7 +65,7 @@ export const SAMPLE_TASKS: Task[] = [
   },
   {
     id: '2',
-    title: 'Testar Aplicativo',
+    title: 'Testar aplicativo',
     description: 'Testar funcionalidades do aplicativo',
     status: 'in_progress',
     priority: 'high',
@@ -101,7 +101,7 @@ export const SAMPLE_TASKS: Task[] = [
   },
   {
     id: '5',
-    title: 'Configurar ontas',
+    title: 'Configurar contas',
     description: 'Ajustar contas das pessoas.',
     status: 'done',
     priority: 'medium',
