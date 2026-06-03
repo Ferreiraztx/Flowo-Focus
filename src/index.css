@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #0a0a0f;
+  --color-surface: #12121a;
+  --color-surface-elevated: #1a1a26;
+  --color-border: #2a2a3d;
+  --color-accent: #6c63ff;
+  --color-accent-glow: #6c63ff40;
+  --color-text-primary: #f0f0ff;
+  --color-text-secondary: #8888aa;
+  --color-success: #4fffb0;
+  --color-warning: #ffb347;
+  --color-danger: #ff6b6b;
+}
+
+@layer base {
+  body {
+    @apply m-0 min-h-screen bg-background font-sans text-text-primary antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .kanban-dragging {
+    opacity: 0.9 !important;
+    box-shadow: 0 0 20px rgba(108, 99, 255, 0.25);
+  }
+}
